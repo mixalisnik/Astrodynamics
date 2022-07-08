@@ -59,5 +59,11 @@ In the second part we integrate considering the effect Earth's shadow has in the
 For each part, we plot the orbit of the satellite as well as the a(t), e(t), where a is the semi major axis of the orbit and e its eccentricity.
 As we observe from the figures above, in both cases the effect solar radiation pressure has in the orbit of the satellite is miniscule in both parts for 6000 orbital periods.
 ### Satellite orbit in oblate Earth potential
-* Part A  
+* **Part A**  
+In this script our goal is to numerically integrate the differential equations of two satellite orbits in cartesian coordinates.
+We consider the system pertrubed by J2 pertubations.
+We consider two cases of satellite orbits. The first orbit is considered to be a LEO circular orbit of height 400km and RAAN 0 deg from the earth's surface.
+period. The second orbit is considered to be a Molniya orbit of height 19000km, RAAN 0deg, w=270deg and eccentricity 0.75. We consider a three dimensional orbit.
+For both satellite cases, we integrate the orbit for different values of inclination. For the LEO orbit we use inclination values in range [85,105] degrees. For the Molniya orbit we use inclination values in range [58,68] degrees. After integrating for many different inclination values, we plot each individual orbit in a three dimensional interactive plot.
+The integration time span is 1000 orbital periods
 * Part B
