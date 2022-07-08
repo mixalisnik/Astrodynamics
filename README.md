@@ -35,8 +35,12 @@ From an initial orbital state, the satellite is transferred to another orbital l
 change of plane, change of perigee and change of shape maneuvers.  
 The time of flight needed to perform the transfer as well as the ΔV cost are computed. 
 ### ISS Orbit Integration without pertubations  
-The orbit of ISS is numerically integrated considering only Earth's gravitational pull. The stability of the orbit is verified after 6000 orbital periods. 
+In this script our goal is to numerically integrate the differential equations of a satellite in cartesian coordinates.
+There are no pertubations in the system we are simulating.
 
+The only force affecting the satellite is considered to be Earth's gravitational pull.
+
+Thus, we expect the orbital elements to remain unchanged during the orbit propagation, since no pertubative forces affect the movement of the satellite.
 ### ISS Orbit Integration considering Stoke's Drag
 ### ISS Orbit Integration considering Solar Radiation Pressure
 ### Satellite orbit in oblate Earth potential
