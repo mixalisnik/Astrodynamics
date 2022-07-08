@@ -66,4 +66,5 @@ We consider two cases of satellite orbits. The first orbit is considered to be a
 period. The second orbit is considered to be a Molniya orbit of height 19000km, RAAN 0deg, w=270deg and eccentricity 0.75. We consider a three dimensional orbit.
 For both satellite cases, we integrate the orbit for different values of inclination. For the LEO orbit we use inclination values in range [85,105] degrees. For the Molniya orbit we use inclination values in range [58,68] degrees. After integrating for many different inclination values, we plot each individual orbit in a three dimensional interactive plot.
 The integration time span is 1000 orbital periods
-* Part B
+* **Part B**  
+In this script our goal is to plot the evolution of all Keplerian elements (a, e, i, RAN, w) with time and plot the results. The results are compared to the theoretical values of da/dt, de/dt, di/dt, dRAAN/dt, dw/dt of the averaged theory, for different values of inclination. 
