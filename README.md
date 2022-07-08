@@ -49,7 +49,15 @@ The orbit of the satellite is plotted. As we see, the orbital radius progressive
 We compute the time needed for the satellite to impact the earth's surface due to the pertubative force of Stoke's drag.
 Next, we calculate the theoretical time according to the prediction from Gauss Equations.
 We find that the simulation time coincides with the theoretical time.
-### ISS Orbit Integration considering Solar Radiation Pressure
+### ISS Orbit Integration considering Solar Radiation Pressure  
+In this script our goal is to numerically integrate the differential equations of a satellite in cartesian coordinates
+The system is considered pertrubed from the solar radiation pressure.
+The integration time span is 6000 orbital periods.
+The movement of the sun is considered circular with ω=1deg/day.
+In the first part we integrate ignoring the effect Earth's shadow has in the process (without Earth's shadow).
+In the second part we integrate considering the effect Earth's shadow has in the process (with Earth's shadow).
+For each part, we plot the orbit of the satellite as well as the a(t), e(t), where a is the semi major axis of the orbit and e its eccentricity.
+As we observe from the figures above, in both cases the effect solar radiation pressure has in the orbit of the satellite is miniscule in both parts for 6000 orbital periods.
 ### Satellite orbit in oblate Earth potential
 * Part A  
 * Part B
