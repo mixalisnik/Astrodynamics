@@ -41,7 +41,14 @@ There are no pertubations in the system we are simulating.
 The only force affecting the satellite is considered to be Earth's gravitational pull.
 
 Thus, we expect the orbital elements to remain unchanged during the orbit propagation, since no pertubative forces affect the movement of the satellite.
-### ISS Orbit Integration considering Stoke's Drag
+### ISS Orbit Integration considering Stoke's Drag  
+In this script our goal is to numerically integrate the differential equations of a satellite in cartesian coordinates
+The system is considered pertrubed from Stoke's drag.
+The integration time span is 6000 orbital periods.
+The orbit of the satellite is plotted. As we see, the orbital radius progressively decreases.
+We compute the time needed for the satellite to impact the earth's surface due to the pertubative force of Stoke's drag.
+Next, we calculate the theoretical time according to the prediction from Gauss Equations.
+We find that the simulation time coincides with the theoretical time.
 ### ISS Orbit Integration considering Solar Radiation Pressure
 ### Satellite orbit in oblate Earth potential
 * Part A  
